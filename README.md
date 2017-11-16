@@ -1,0 +1,1 @@
+# electroneum-easyhash-webminer

